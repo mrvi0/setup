@@ -36,7 +36,8 @@ upMins=$((uptime_secs/60%60))
 
 # Использование ресурсов
 SYS_LOADS=$(cut -d' ' -f1 /proc/loadavg)
-MEMORY_USED=$(free -b | awk '/^Mem:/ {printf "%.2f", $3/$2 * 100.0}')
+MEMORY_USED=$(free -b | awk '/^Mem:/ {print $3/$2 * 100.0}')
+SWAP_USED=$(free -b | awk '/^Swap:/ {if ($2 > 0) print $3/$2 * 100.0; else print 0.0}')
 NUM_PROCS=$(ps -e --no-headers | wc -l)
 
 # IP-адрес и hostname
