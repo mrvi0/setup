@@ -4,7 +4,7 @@
 sudo chmod -x /etc/update-motd.d/*
 
 # Создаем файл 01-custom с необходимым содержимым
-sudo bash -c 'cat > /etc/update-motd.d/01-custom << "EOF"
+sudo bash -c 'cat > /etc/update-motd.d/01-custom << EOF
 #!/bin/bash
 
 # Цвета
@@ -37,7 +37,6 @@ upMins=$((uptime_secs/60%60))
 # Использование ресурсов
 SYS_LOADS=$(cut -d' ' -f1 /proc/loadavg)
 MEMORY_USED=$(free -b | awk '/^Mem:/ {printf "%.2f", $3/$2 * 100.0}')
-
 NUM_PROCS=$(ps -e --no-headers | wc -l)
 
 # IP-адрес и hostname
