@@ -74,7 +74,7 @@ echo -e "${tcLtG} - Swap used %   : ${tcW}${SWAP_USED}%${tcRESET}"
 echo -e "${tcLtG} - System uptime : ${tcW}${upDays} days ${upHours} hours ${upMins} minutes${tcRESET}"
 echo -e "${tcLtR} USE ./vps_info.sh${tcRESET}"
 echo -e "${tcDkG}=================================================================${tcRESET}"
-'
+EOF'
 
 # Даем права на исполнение для нового файла
 sudo chmod +x /etc/update-motd.d/01-custom
