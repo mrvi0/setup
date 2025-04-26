@@ -74,7 +74,7 @@ echo -e "${tcLtG} - System load   : ${tcW}${SYS_LOADS}${tcRESET} / ${tcW}${NUM_P
 echo -e "${tcLtG} - Memory used % : ${tcW}${MEMORY_USED}%${tcRESET}"
 echo -e "${tcLtG} - Swap used %   : ${tcW}${SWAP_USED}%${tcRESET}"
 echo -e "${tcLtG} - System uptime : ${tcW}${upDays} days ${upHours} hours ${upMins} minutes${tcRESET}"
-echo -e "${tcLtR} USE ./vps_info.sh${tcRESET}"
+echo -e "${tcLtR} USE ./vps_info.sh НУЖНО ОБНОВИТЬ${tcRESET}"
 echo -e "${tcDkG}=================================================================${tcRESET}"
 # Не забываем сбросить цвет в конце, хотя последняя строка уже это делает
 # echo -e "${tcRESET}" # Эта строка не обязательна, если последняя echo уже сбрасывает цвет
