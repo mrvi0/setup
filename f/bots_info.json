@@ -1,0 +1,64 @@
+{
+  "basic_info": {
+    "contacts": {
+      "email_public": "dev@b4dcat.ru",
+      "telegram_primary": null,
+      "github_profile": "https://github.com/mrvi0"
+    },
+    "community": {
+       "telegram_channel_name": "B4DCAT",
+       "telegram_channel_url": "https://t.me/B4DCAT",
+       "telegram_channel_slug": "B4DCAT",
+       "telegram_forum_name": "B4DCAT HUB",
+       "telegram_forum_url": "https://t.me/B4DCAT_HUB",
+       "telegram_forum_slug": "B4DCAT_HUB",
+       "discord_server_invite": null
+    },
+    "projects_main": {
+       "main_domain": "https://b4dcat.ru",
+       "spy_game_url": "https://spy.b4dcat.ru",
+       "pastebin_url": "https://paste.b4dcat.ru",
+       "monitor_url": null,
+       "jsonsorter_url": null,
+       "api_endpoint": null
+    },
+    "resources": {
+       "github_pages": "https://mrvi0.github.io",
+       "ghcr_profile": "https://ghcr.io/mrvi0",
+       "docker_hub_profile": null,
+       "status_page_url": null,
+       "blog_url": null,
+       "portfolio_url": null
+    },
+    "other": {
+       "minecraft_server": null,
+       "donate_link": null
+    }
+  },
+  "bot_info": {
+    "admin_bot": {
+      "name": "Admin Bot",
+      "description": "Бот для управления инфраструктурой.",
+      "channel_link": "https://t.me/your_channel",
+      "repository": "https://github.com/mrvi0/adminbot",
+      "help_text": "Доступные команды:\n/start - Начало\n/health - Статус систем\n/..."
+    },
+    "spy_bot": {
+      "name": "Spy Game Bot",
+      "description": "Вспомогательный бот для игры Шпион.",
+      "channel_link": "https://t.me/your_channel",
+      "repository": "https://github.com/mrvi0/spy-game",
+      "related_service": "https://spy.b4dcat.ru",
+      "help_text": "Используйте команды в игре."
+    },
+    "vtt_bot": {
+      "name": "Voice-To-Text Bot",
+      "description": "Бот для перевода голосовых в текст.",
+      "channel_link": null,
+      "repository": null,
+      "help_text": "Просто отправьте голосовое сообщение."
+    }
+  },
+  "version": "1.1",
+  "last_updated": "2025-05-05T05:31:00Z"
+}
