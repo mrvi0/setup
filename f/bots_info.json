@@ -52,10 +52,11 @@
       "help_text": "Используйте команды в игре."
     },
     "vtt_bot": {
-      "name": "Voice-To-Text Bot",
-      "description": "Бот для перевода голосовых в текст.",
-      "channel_link": null,
-      "repository": null,
+      "name": "B4DCAT VTT BOT",
+      "description": "Бот для перевода голосовых и видео сообщений в текст.",
+      "channel_link": "https://t.me/B4DCAT",
+      "channel_slug": "@B4DCAT",
+      "repository": "https://github.com/mrvi0/vtt-bot",
       "help_text": "Просто отправьте голосовое сообщение."
     }
   },
